@@ -4,7 +4,6 @@ import { MascotAvatar } from '../components/MascotAvatar.js';
 import { GameIcon } from '../components/GameIcon.js';
 import { GAMES, BUDDIES } from '../data/gameData.js';
 import { GameId } from '../types/game.js';
-import { PWAInstallButton } from '../components/PWAInstallButton.js';
 
 export const HomeScreen: React.FC = () => {
   const {
@@ -74,14 +73,6 @@ export const HomeScreen: React.FC = () => {
           </div>
         </div>
       </header>
-
-      {/* PWA / Android Install Bar */}
-      <div className="flex items-center justify-between px-1 -my-2">
-        <span className="text-[12px] font-extrabold text-[#26354A]/60 tracking-tight">
-          Android App Ready
-        </span>
-        <PWAInstallButton />
-      </div>
 
       {/* "Jump back in" Card matching PDF Page 6 */}
       <section

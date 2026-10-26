@@ -3,7 +3,6 @@ import { useGame } from '../context/GameContext.js';
 import { TextSize, AgeGroup, ChallengeLevel } from '../types/game.js';
 import { ChevronLeft, Volume2, VolumeX, RotateCcw } from 'lucide-react';
 import { playFanfareSound } from '../utils/audio.js';
-import { PWAInstallButton } from '../components/PWAInstallButton.js';
 
 export const SettingsScreen: React.FC = () => {
   const { profile, updateProfile, resetGameData, navigateTo } = useGame();
@@ -154,19 +153,6 @@ export const SettingsScreen: React.FC = () => {
                 </button>
               );
             })}
-          </div>
-        </section>
-
-        {/* Android App & APK Installation */}
-        <section className="space-y-3 pt-2">
-          <div className="flex items-center justify-between">
-            <div>
-              <h2 className="text-[18px] font-black text-[#26354A]">Android & App Install</h2>
-              <p className="text-[13px] font-semibold text-[#26354A]/70">
-                Install as a native app or get the APK
-              </p>
-            </div>
-            <PWAInstallButton />
           </div>
         </section>
 
