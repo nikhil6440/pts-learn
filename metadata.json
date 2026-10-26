@@ -1,0 +1,6 @@
+{
+  "name": "Playtown Learn",
+  "description": "A colorful, gamified educational app for children aged 8–14. Play. Think. Discover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

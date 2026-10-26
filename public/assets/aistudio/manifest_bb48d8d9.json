@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Playtown Learn",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Playtown",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://ais-dev-ipmp2sat4gelo6d4z7lrnt-772115609631.asia-northeast1.run.app/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "/",
+  "description": "Play. Think. Discover. A colorful, gamified educational app for kids with math quests, science exploration, and logic brain trails."
+}

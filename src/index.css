@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nunito: 'Nunito', sans-serif;
+  --color-sky: #56B7F5;
+  --color-sunny: #FFD45C;
+  --color-coral: #FF8178;
+  --color-mint: #79DDB0;
+  --color-ink: #26354A;
+  --color-cream: #FFFBF2;
+  --color-brain-purple: #A79AF5;
+}
+
+:root {
+  --font-sans: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFFBF2;
+  color: #26354A;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  overscroll-behavior: none;
+}
+
+/* Custom scrollbar for game areas */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(38, 53, 74, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(38, 53, 74, 0.3);
+}
